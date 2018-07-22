@@ -2,15 +2,15 @@ package masterspringmvc.masterspringmvc.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+//import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class HelloController {
     @RequestMapping("/")
-    @ResponseBody
+    //@ResponseBody
     public String hello(){
-        return "hello world";
-        //return "resultPage";
+        //return "hello world";
+        return "resultPage";
     }
 }
 
