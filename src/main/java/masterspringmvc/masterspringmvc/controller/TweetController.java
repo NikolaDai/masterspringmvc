@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class TweetController{
+
     @Autowired
     private Twitter twitter;
 
